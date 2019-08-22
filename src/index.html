@@ -6,9 +6,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <h1> Cifras de César </h1>
+    <form>
+
+        <input type="text" placeholder="Escreva a mensagem" id="text1"/>
+        <input type="number" placeholder="Deslocamento" id="desloc"/>
+        <button class="button" id="btn-clicar1" onclick="takeText1()">Cifrar</button>
+        <button class="button" id="btn-clicar2" onclick="takeText2()">Decifrar</button>
+        
+      </form>
+
+      <p id="test"> </p>
+    
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
