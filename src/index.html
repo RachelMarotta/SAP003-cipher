@@ -5,20 +5,27 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <main>
   <body>
-    <h1> Cifras de César </h1>
+    <div class=estilo>
+    <h1> Da Penha </h1>
     <form>
+      <div>
+        <input type="text" placeholder="Digite a mensagem" id="text1"/>
+      </div>
+      <div>
+        <input type="number" placeholder="Chave" id="desloc"/>
+      </div>
+        <button class="button" id="btn-clicar1">Cifrar</button>
+        <button class="button" id="btn-clicar2">Decifrar</button>
 
-        <input type="text" placeholder="Escreva a mensagem" id="text1"/>
-        <input type="number" placeholder="Deslocamento" id="desloc"/>
-        <button class="button" id="btn-clicar1" onclick="takeText1()">Cifrar</button>
-        <button class="button" id="btn-clicar2" onclick="takeText2()">Decifrar</button>
-        
-      </form>
-
-      <p id="test"> </p>
+        <figure><img src="feminism.png" alt="Minha Figura"></figure>
+    </form>
+    </main>
+      <p id="textCipher"> </p>
     
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+  </div>
   </body>
 </html>
