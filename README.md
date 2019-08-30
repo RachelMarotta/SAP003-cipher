@@ -23,12 +23,15 @@ A interface permite ao usuário:
 * Inserir uma mensagem para ser decifrada;
 * Ver o resultado da mensagem decifrada.
 
-Para proporcionar essa experiência usuário foi utilizado:
+Para proporcionar essa experiência ao usuário foi utilizado:
 
 * HTML  
-Foram criados:  
--Caixas de texto e os botões para cifrar e decifrar as mensagens;  
--Caixa onde aparecerá o resultado da mensagem cifrada e decifrada.  
+-Foram criados:  
+ 1. Caixa de texto utilizando textarea para colocar a mensagem a ser cifrada/decifrada;
+ 2. Caixa para inserir a chave de deslocamento utilizando input;  
+ 3. Parágrafo para exibir o resultado da mensagem cifrada/decifrada.   
+ -Foram criados buttons para os botões cifrar e decifrar.
+  
 * CSS  
 Utilizado para melhorar a estética do site.
 
