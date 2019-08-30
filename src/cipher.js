@@ -45,7 +45,3 @@ function decode(offset, msg) {
   }   
   return result;
 }
-
-/* let decipherForm = ((msg.charCodeAt(i) - 90 - offset) % 26) + 90;
-    result += String.fromCharCode(decipherForm);  */
-
