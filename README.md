@@ -23,13 +23,12 @@ A interface permite ao usuário:
 * Inserir uma mensagem para ser decifrada;
 * Ver o resultado da mensagem decifrada.
 
-Para proporcionar isso ao usuário foi feito:
+Para proporcionar essa experiência usuário foi utilizado:
 
 * HTML  
 Foram criados:  
 -Caixas de texto e os botões para cifrar e decifrar as mensagens;  
 -Caixa onde aparecerá o resultado da mensagem cifrada e decifrada.  
-
 * CSS  
 Utilizado para melhorar a estética do site.
 
@@ -50,4 +49,4 @@ Assim que a vítima fizer um BO na delegacia ela recebe o endereço do site/app.
 Se o agressor desobedecer a medida protetiva, a vítima poderá enviar a mensagem cifrada alertando a polícia, que ao recebê-la poderá adotar de imediato as providências legais cabíveis, como enviar ajuda.  
 O aplicativo irá facilitar a denúncia, em momento real sem ser necessário ir a delegacia para relatar a situação, evitando assim, muitos casos de feminícidio.  
 
-![Página inicial do aplicativo](src\Appenha.png)
+![Página inicial do aplicativo](src/Appenha.png)
