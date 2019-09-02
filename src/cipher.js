@@ -14,9 +14,9 @@ function encode(offset, str) {
       result += String.fromCharCode(cipherFormUpperCase); 
 
     } else if (str.charCodeAt(i) >=97 && str.charCodeAt(i) <= 122) {
-    
       let cipherFormLowerCase = ((str.charCodeAt(i) - 97 + offset) % 26) + 97;
       result += String.fromCharCode(cipherFormLowerCase);
+
     } else {
       result += String.fromCharCode(str.charCodeAt(i));
     }
@@ -36,9 +36,9 @@ function decode(offset, msg) {
       result += String.fromCharCode(decipherFormUpperCase); 
 
     } else if (msg.charCodeAt(i) >=97 && msg.charCodeAt(i) <= 122) {
-    
       let decipherFormLowerCase = ((msg.charCodeAt(i) - 122 - offset) % 26) + 122;
       result += String.fromCharCode(decipherFormLowerCase);
+      
     } else {
       result += String.fromCharCode(msg.charCodeAt(i));
     }

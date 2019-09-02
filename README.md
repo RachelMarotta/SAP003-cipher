@@ -26,17 +26,18 @@ A interface permite ao usuário:
 Para proporcionar essa experiência ao usuário foi utilizado:
 
 * HTML  
--Foram criados:  
- 1. Caixa de texto utilizando textarea para colocar a mensagem a ser cifrada/decifrada;
- 2. Caixa para inserir a chave de deslocamento utilizando input;  
- 3. Parágrafo para exibir o resultado da mensagem cifrada/decifrada.   
- -Foram criados buttons para os botões cifrar e decifrar.
+1. Foram criados:    
+-Caixa de texto utilizando textarea para colocar a mensagem a ser cifrada/decifrada;  
+-Caixa para inserir a chave de deslocamento utilizando input;  
+-Parágrafo para exibir o resultado da mensagem cifrada/decifrada.   
+ 2. Foram criados buttons para os botões cifrar e decifrar.
   
 * CSS  
 Utilizado para melhorar a estética do site.
 
 * JavaScript  
-Foram criadas as funções para cifrar e decifrar os textos.  
+1. Foram criadas as funções para cifrar e decifrar os textos;  
+2. Imprime os resultados na tela.
 
 ## Definição do produto  
 
